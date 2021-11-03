@@ -20,7 +20,8 @@ print('Min: %f, Max: %f ' % (scaler.data_min_, scaler.data_max_))
 
 # normalize the dataset and print
 normalized = scaler.transform(values)
-print('normalized ',normalized)
+print('normalized ', normalized)
+
 # inverse transform and print
 inversed = scaler.inverse_transform(normalized)
-print('inverse ',inversed)
+print('inverse ', inversed)
